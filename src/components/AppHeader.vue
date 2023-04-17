@@ -12,7 +12,7 @@
                 <div @click="showMenu($event)" class="d-flex d-lg-none al-menu-data position-relative">
                     <i class="fa-solid fa-bars"></i>
                     <div class="al-menu">
-                        <div v-for="link in headerLinks" class="al-menu-item">{{ link }}</div>
+                        <div v-for="link in headerLinks" class="al-menu-item text-uppercase">{{ link }}</div>
                     </div>
                 </div>
             </div>
